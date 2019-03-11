@@ -104,6 +104,7 @@ small {
       <li><button onclick=sour()>sour
       </button></li>
       <li><button onclick=salty()>salty</button></li>
+	<li><button onclick=bev()>bev</button></li>
     </ul>
 
 <h1>Maddie's restaurant</h1>
@@ -131,6 +132,12 @@ saltyImages = [
   'url("https://lovesodium.weebly.com/uploads/9/0/8/3/9083254/5384096_orig.jpg")',
 ]
 
+bevImages = [
+  'url("https://cdn.newsapi.com.au/image/v1/2423173efcc868171da8bb2e87149c4e")',
+  'url("http://www.sodatasting.com/wp-content/uploads/2013/03/lemon-lime-soda-blind-tasting.jpg")',
+  'url("https://previews.123rf.com/images/iquacu/iquacu1404/iquacu140400151/27930684-fresh-fruit-juice-flowing-from-fruit-into-the-glass.jpg")',
+]
+
 sweetDivs = [ 
   '<div class="item" onclick=this.classList.toggle("show-description")><p>SWEET CAKE MIXS <span class="price">$14</span><br /><small>Mustard sierra leone bologi. </small></p></div>',
 			'<div class="item" onclick=this.classList.toggle("show-description")><p>MACAROONS <span class="price">$22</span><br /><small>Tri-tip capicola kielbasa bresaola. </small></p></div>',
@@ -149,7 +156,12 @@ saltyDivs = [
 			'<div class="item" onclick=this.classList.toggle("show-description")><p>PIZZA <span class="price">$22</span><br /><small>Tri-tip capicola kielbasa bresaola. </small></p></div>',
 			'<div class="item" onclick=this.classList.toggle("show-description")><p>PRETZEL <span class="price">$8</span><br /><small>Lollipop ice cream candy canes.</small></p></div>',
 ]
-
+	
+bevDivs = [ 
+  '<div class="item" onclick=this.classList.toggle("show-description")><p>COKE <span class="price">$14</span><br /><small>Mustard sierra leone bologi. </small></p></div>',
+			'<div class="item" onclick=this.classList.toggle("show-description")><p>LIME <span class="price">$22</span><br /><small>Tri-tip capicola kielbasa bresaola. </small></p></div>',
+			'<div class="item" onclick=this.classList.toggle("show-description")><p>JUICE <span class="price">$8</span><br /><small>Lollipop ice cream candy canes.</small></p></div>',	
+]
 
   function sweet() {
      
@@ -193,6 +205,20 @@ saltyDivs = [
     items[1].style.background = saltyImages[1]
     items[2].style.background = saltyImages[2]
     
+  }
+	 function bev() {
+    
+     ty= document.getElementById("sweet")
+     ty.innerHTML = ''
+     ty.innerHTML += bevDivs[0]
+     ty.innerHTML += bevDivs[1]
+     ty.innerHTML += bevDivs[2]
+    
+    items = document.getElementsByClassName("item")
+    items[0].style.background = bevImages[0]
+    items[0].style.backgroundSize = '100% 100%'
+    items[1].style.background = bevImages[1]
+    items[2].style.background = bevImages[2]
   }
 </script>
 
