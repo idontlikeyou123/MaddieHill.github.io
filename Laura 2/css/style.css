@@ -12,9 +12,11 @@ body {
   font-family: 'Germania One', cursive;
   font-family: 'Pacifico', cursive; 
   font-size: 18px;
-  letter-spacing: 0.5px;vfgghrfggfftasftdftsdgydfgydfgygjmkmkojmio sdtydyugyu7g7sgfo
+  letter-spacing: 0.5px; 
   font-size: 17px;
   font-weight: 400;
+  background-color: pink;
+   
 }
 
 ol, ul {
@@ -68,6 +70,10 @@ Responsive media queries
 .navbar-brand {
   font-size: 36px;
   font-family: 'Satisfy', cursive;
+  font-family: 'Dokdo', cursive;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Mrs Sheppards', cursive;
+  
    
 }
 
@@ -95,17 +101,17 @@ Responsive media queries
 
 @media (max-width: 768px) {
 	.navbar-collapse {
-		background: rgba(50, 60, 70, 0.9);
+		background: rgba(97, 26, 63, 0.1);
 	}
 }
 
 .top-nav-collapse {
   padding: 0;
-  background: rgba(50, 60, 70, 0.9);
+  background: rgba(135, 386, 124, 0.6);
 }
 
 .bg-color {
-  background-color: RGBA(0, 0, 0, 0.67);
+  background-color: RGBA(100, 146, 100, 0.7);
   min-height: 650px;
 }
 
@@ -121,12 +127,19 @@ Responsive media queries
 .banner-text h2, .banner-text p {
   font-size: 40px;
   font-weight: 400;
-  font-family: 'Questrial', sans-serif;
+  font-family: 'Dokdo', cursive;
+  
 }
 
 .banner-text h2 span {
   font-family: 'Satisfy', cursive;
   font-family: 'Dancing Script', cursive;
+  font-family: 'Dokdo', cursive;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Mrs Sheppards', cursive;
+  font-family: 'Kaushan Script', cursive;
+  
+  
 }
 
 .overlay-detail {
@@ -147,7 +160,9 @@ Responsive media queries
 }
 
 .deco {
-  font-family: 'Satisfy', cursive;
+	font-family: 'Pacifico', cursive;
+	font-family: 'Heebo', sans-serif;
+  
 }
 
 #about {
@@ -208,6 +223,7 @@ Responsive media queries
   line-height: 20px;
   padding: 15px;
   position: relative;
+  background-color:red;
 }
 
 .test-sec blockquote::after {
@@ -218,6 +234,7 @@ Responsive media queries
   border-top: 14px solid #eee;
   border-left: 14px solid transparent;
   border-right: 14px solid transparent;
+  background-color:red;
 }
 
 blockquote {
@@ -225,6 +242,7 @@ blockquote {
   margin: 0 0 20px;
   font-size: 17.5px;
   border-left: 5px solid RGBA(0, 0, 0, 0.18);
+  
 }
 
 .test-sec .carousel-info span {
@@ -299,6 +317,8 @@ footer {
   color: pink;
   font-weight: 600;
   padding: 15px 0px;
+  background-color:yellow;
+   
 }
 
 .footer__navigation li a {
@@ -311,12 +331,14 @@ footer {
   margin-top: 0;
   margin-bottom: 1.625em;
   padding-right: 10px;
+   
 }
 
 .contact-sec p {
   color: pink;
   font-size: 18px;
   padding: 16px 0px 24px;
+  background-color:purple;
 }
 
 .contact-sec i {
@@ -325,11 +347,12 @@ footer {
 
 .contact-sec a {
   color: #FFF;
-  background-color: RGBA(124, 159s, 112, 0.9);
+  background-color: RGBA(32, 54s, 62, 0.2);
   display: inline-block;7
   padding: 16px 34px;
   font-size: 18px;
   transition: all 0.5s ease-in 0s;
+   
 }
 
 .carousel-info, blockquote {
@@ -343,6 +366,7 @@ footer {
   opacity: .5;
   display: inline-block;
   margin: 0;
+  background-color:blue;
 }
 
 .social-list li a {
@@ -359,7 +383,7 @@ footer {
 }
 
 .type--fine-print {
-  color: #454545;
+  color: #121212;
 }
 
 .navbar-toggle {
@@ -424,4 +448,4 @@ Responsive media queries
     margin-bottom: 15px;
   }
 }
-fugfhu
+ 
